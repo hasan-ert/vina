@@ -1,0 +1,14 @@
+
+.card-wrapper{
+    width: 350px;
+    margin: 6px;
+    padding-block: 100px;
+    padding-inline: 1rem;
+    height: calc(350px * 1.1547); 
+    display: inline-block;
+    font-size:initial;
+    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+    background: var(--secondary-color-light);
+    margin-bottom: calc(var(--m) - var(--s)*0.2885); 
+  }
+  
