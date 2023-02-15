@@ -11,6 +11,8 @@
   --secondary-color-light: #FED053;
   --secondary-color-dark: #d9b100;
   --text-white: rgb(224, 224, 224);
+  --text-dark: rgb(61, 61, 61);
+  --text-light-dark: rgb(95, 95, 95);
   --text-colored: #FED053;
 }
 

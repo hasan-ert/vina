@@ -1,0 +1,44 @@
+.card-main-container{
+    padding-block:  5rem !important;
+}
+
+.card-deck{
+    margin-inline: 0 !important;
+}
+
+@media screen and (max-width: 991px) {
+    .info-row-1{ flex-direction: column-reverse;}
+    .title-row{
+        text-align: center;
+        padding-inline:1rem !important;
+        
+    }
+}
+
+ .title-row{
+    text-align: start;
+    color: var(--text-dark);
+    padding-block: 5rem;
+    padding-inline: 4rem;
+}
+.title-row *{
+    text-align: justify;
+}
+
+ .title-row h1{
+    text-align: justify;
+    font-size: calc(2vw + 1rem);
+    font-weight: bold;
+}
+
+
+
+.card-deck .illustration{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    margin: auto;
+}
+
+.card-deck #beekeeper-2{
+    transform: scaleX(-1);
+}
