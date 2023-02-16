@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 .App {
   text-align: center;
+  background-color: #fff8e6b5;
 }
 
 :root{
@@ -20,6 +21,9 @@
 .container , .container-fluid{
   padding: 0 !important;
 }
+.row{
+  margin: 0 !important;
+}
 
 .app-main-container>.row, .app-main-container>.row>.col{
   padding: 0;
@@ -27,4 +31,17 @@
 }
 h1, h2,h3,h4,h5,h6,p{
   font-family: 'Questrial', sans-serif;
+}
+
+* h1{
+  font-size: calc(2vw + 2.5rem);
+}
+* h2{
+  font-size: calc(1.75vw + 1.75rem);
+}
+* h3{
+  font-size: calc(1.25vw + 1.5rem);
+}
+* p{
+  font-size: calc(0.50vw + 0.75rem );
 }

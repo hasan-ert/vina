@@ -2,14 +2,13 @@ import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import "./Cards.css";
 import Card from "./Card";
-import illustration from "../../assets/illustration.png";
-import illustration2 from "../../assets/illustration2.png";
+import illustration from "../../assets/illustration_new.png";
+import illustration2 from "../../assets/illustration2_new.png";
 const dummy = [
     {
         title: "Deneme Icin Girilmis Bir Card",
         content: "Lorem ipsum dolor sit amet",
     },
-    { title: "deneme", content: "Lorem ipsum dolor sit amet" },
     { title: "deneme", content: "Lorem ipsum dolor sit amet" },
     { title: "deneme", content: "Lorem ipsum dolor sit amet" },
     { title: "deneme", content: "Lorem ipsum dolor sit amet" },
@@ -20,12 +19,22 @@ export default function InfoCardsComp({ cardsInfoArr = dummy }) {
     function generateCards() {
         if (cardsInfoArr !== undefined && cardsInfoArr.length > 0) {
             return cardsInfoArr.map((item, index) => {
-                return <Card title={item.title} content={item.content}></Card>;
+                return (
+                    <Card
+                        key={index}
+                        title={item.title}
+                        content={item.content}
+                    ></Card>
+                );
             });
         }
     }
     return (
-        <Container fluid className="card-main-container">
+        <Container
+            fluid
+            id="card-main-container"
+            className="card-main-container"
+        >
             <Row className="card-deck">
                 <Row className="info-row-1">
                     <Col
