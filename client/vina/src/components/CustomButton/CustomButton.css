@@ -1,0 +1,63 @@
+ .custom-btn{
+    position: relative;
+    font-family: "Questrial", sans-serif;
+    font-size: 14pt;
+    margin-top: 5rem;
+    width: 250px;
+    background-color: var(--secondary-color-mid);
+    border-color: var(--primary-color-dark);
+    transition: 0.3s ease-in;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+ .custom-btn h5, .custom-btn p{
+    position: relative;
+    margin-bottom: 0;
+    font-weight: 500;
+    z-index: 3;
+}
+
+ .custom-btn::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    background-color: var(--primary-color-dark);
+    left: 0;
+    top:0;
+    transition: 0.5s ease-in;
+}
+ .custom-btn::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    background-color: var(--primary-color-dark);
+    right: 0;
+    top:0;
+    transition: 0.5s ease-in;
+}
+
+
+ .custom-btn:hover{
+    background-color: var(--secondary-color-mid);
+    border-color: var(--primary-color-dark);
+}
+
+ .custom-btn:active{
+    background-color: var(--secondary-color-mid);
+    border-color: var(--primary-color-dark);
+}
+ .custom-btn:focus{
+  
+    border-color: var(--secondary-color-dark);
+}
+
+ .custom-btn:hover::before{
+    width: 51%;
+}
+ .custom-btn:hover:after{
+    width: 51%;
+
+}
