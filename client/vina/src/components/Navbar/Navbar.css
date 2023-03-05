@@ -37,6 +37,9 @@ color: var(--primary-color-dark)
     color: var(--text-colored);
 }
 
+.navbar-nav .nav-link.active{
+    color: var(--text-colored) !important;
+}
 
 
 /* media queries */

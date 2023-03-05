@@ -1,7 +1,30 @@
 .join-main-container{
+    position: relative;
+    padding-block: 3rem !important;
+    overflow: hidden;
+}
+
+.join-main-container .join-main-row{
+    position: relative;
+    z-index: 3;
     background-color: var(--secondary-color-light);
 }
 
+@media only screen and (max-width: 991px){
+    .join-main-row {
+        flex-direction: column-reverse;
+    }
+    
+}
+
+.join-main-container .back-layer{
+    position: absolute;
+    z-index: 0;
+    background-color: var(--primary-color-mid);
+    height: 110%;
+    width: 100%;
+    top: -10%;
+}
 
 .join-main-container .jumbotron-pic{
     width: 100%;

@@ -1,0 +1,81 @@
+.contact-main-container{
+    margin-block: 3rem;
+    padding: 3rem !important;
+}
+
+.contact-main-container .contact-title-row h2{
+    color: var(--text-dark);
+    font-size: calc(1.75vw + 1.75rem);
+    font-weight: bold;
+}
+
+.contact-main-container .contact-main-row{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.176);
+    margin-top: 2rem !important;
+    
+}
+
+.contact-main-container .contact-main-row .contact-info-col{
+    position: relative;
+    border-radius: 15px;
+    background-color: var(--primary-color-light);
+    color: var(--text-white);
+    padding-top: 4rem;
+    text-align: justify;
+    overflow: hidden;
+}
+.contact-main-container .contact-main-row .contact-info-col .info-rows{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-block: 1rem;
+}
+
+.info-rows svg{
+    transform: scale(1.25);
+}
+.info-rows p{
+    margin: 0;
+}
+
+.contact-main-container .contact-main-row .contact-info-col p{
+    font-size: calc(0.25vw + 0.75rem );;    
+}
+.contact-main-container .contact-main-row .contact-info-col::after{
+    content: "";
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    bottom: -400px;
+    right: -400px;
+    border-radius: 100%;
+    background-color: var(--secondary-color-light);
+}
+
+
+
+
+.contact-main-container .contact-main-row .contact-info-col h3{
+    font-weight: bold;
+}
+
+
+.contact-main-container .contact-main-row .contact-form-main-col{
+    padding: 3rem !important;
+}
+
+.contact-main-container .contact-main-row .contact-form-main-col .form-group{
+    text-align: start;
+}
+
+.contact-form-main-col .contact-form{
+    font-family: 'Questrial',sans-serif;
+}
+.contact-form-main-col .contact-form label{
+    font-weight: bold;
+}
+.contact-form-main-col .contact-form .form-control{
+    border-radius: 5px;
+}

@@ -2,10 +2,10 @@
     position: relative;
     font-family: "Questrial", sans-serif;
     font-size: 14pt;
-    margin-top: 5rem;
-    width: 250px;
-    background-color: var(--secondary-color-mid);
-    border-color: var(--primary-color-dark);
+    margin-top: 5rem !important;
+    width: 250px !important;
+    background-color: var(--secondary-color-mid) !important;
+    border-color: var(--primary-color-dark) !important;
     transition: 0.3s ease-in;
     border-radius: 25px;
     overflow: hidden;

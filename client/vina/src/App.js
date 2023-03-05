@@ -8,6 +8,7 @@ import CustomNavbar from "./components/Navbar/Navbar";
 import Cards from "./components/Cards/Cards";
 import JoinUs from "./components/JoinUs/JoinUs";
 import { useRef } from "react";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
     const handleScroll = (id) => {
@@ -30,14 +31,7 @@ function App() {
                 <Hero></Hero>
                 <Cards></Cards>
                 <JoinUs></JoinUs>
-                <h1>Dummy</h1>
-                <h1>Dummy</h1>
-                <h1>Dummy</h1>
-                <h1>Dummy</h1>
-                <h1>Dummy</h1>
-                <h1>Dummy</h1>
-                <h1>Dummy</h1>
-                <h1>Dummy</h1>
+                <ContactUs></ContactUs>
             </Container>
         </div>
     );

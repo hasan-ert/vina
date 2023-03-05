@@ -15,7 +15,9 @@ const CustomButton = ({ startIcon, children, className, ...props }: ButtonProps)
   return (
     <>
     <Button className={"custom-btn " + className} {...props}>
+      <h5>
       {children}
+      </h5>
     </Button>
     </>
   );

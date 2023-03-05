@@ -18,6 +18,7 @@ export default function CustomNavbar({ scrollHandler, refArr }) {
                 expand={expand}
                 className="custom-navbar-container"
                 fixed="top"
+                collapseOnSelect
             >
                 <Container fluid>
                     <Navbar.Brand href="#" className="navbar-brand">
