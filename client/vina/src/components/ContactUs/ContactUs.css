@@ -79,3 +79,30 @@
 .contact-form-main-col .contact-form .form-control{
     border-radius: 5px;
 }
+
+
+@media screen and (max-width : 768px) {
+    .contact-main-container{
+        padding: 1rem !important;
+    }
+.contact-main-container .contact-main-row .contact-form-main-col{
+    padding: 1rem !important;
+}
+
+    .contact-main-container .contact-main-row .contact-info-col::after{
+    width: 550px;
+    height: 550px;
+}
+    
+}
+
+.country-code-indicator{
+    margin-bottom: 0;
+}
+.form-check-input:checked{
+    background-color: var(--secondary-color-light) !important;
+    border-color: var(--secondary-color-light) !important;
+}
+.form-check-input:checked:focus{
+    box-shadow: 0 0 0 0.25rem rgba(13, 13, 14, 0.3) !important;
+}

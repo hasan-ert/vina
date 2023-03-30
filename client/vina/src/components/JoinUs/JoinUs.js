@@ -19,22 +19,27 @@ export default function JoinUs() {
                 <div className="back-layer"></div>
                 <Row className="join-main-row">
                     <Col xs={12} lg={6} className="join-info-col">
-                        <h2>We Work With Local Beekeepers!</h2>
-                        <h3>Looking for new partners in our bussiness</h3>
+                        <h2>Yerel Arıcılar ile Çalışıyoruz!</h2>
+                        <h3>
+                            Arıcı ağımıza katılacak yeni iş ortakları arıyoruz
+                        </h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia
-                            deserunt mollit anim id est laborum.
+                            Sözleşme yaptığımız arıcılarımıza aparat ve ekip
+                            desteği sağlayarak kovanlarından arı zehri hasadını
+                            gerçekleştiriyoruz. İşlem yaptığımız kovan başına
+                            arıcılarımıza komisyon ödüyoruz. İş modelimiz ile
+                            arıcılarımız yatırım ve operasyon maliyeti olmadan
+                            kovanlarından ek gelir elde ediyorlar
                         </p>
-                        <Row style={{ display: "flex", justifyContent: "end" }}>
+
+                        <Row
+                            style={{
+                                display: "flex",
+                                justifyContent: "end",
+                            }}
+                        >
                             <CustomButton className="join-btn">
-                                <h5>Join Us</h5>
+                                <h5>Bize Katılın</h5>
                             </CustomButton>
                         </Row>
                     </Col>

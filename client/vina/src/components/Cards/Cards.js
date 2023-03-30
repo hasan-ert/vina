@@ -6,13 +6,23 @@ import illustration from "../../assets/illustration_new.png";
 import illustration2 from "../../assets/illustration2_new.png";
 const dummy = [
     {
-        title: "Deneme Icin Girilmis Bir Card",
-        content: "Lorem ipsum dolor sit amet",
+        title: "İnovasyon ",
+        content: " İnovatif arı zehri toplama teknolojisi",
     },
-    { title: "deneme", content: "Lorem ipsum dolor sit amet" },
-    { title: "deneme", content: "Lorem ipsum dolor sit amet" },
-    { title: "deneme", content: "Lorem ipsum dolor sit amet" },
-    { title: "deneme", content: "Lorem ipsum dolor sit amet" },
+    {
+        title: "Verim",
+        content:
+            "İnovatif teknoloji sayesinde kovan başına yüksek miktarda üretim",
+    },
+    {
+        title: "Kalite",
+        content: "Yüksek kaliteli arı zehri hasadı( >65 melittin oranı)",
+    },
+    { title: "Güven", content: "Arılara zarar vermeden arı zehri toplama" },
+    {
+        title: "Sertifika",
+        content: "Laboratuvar onaylı ve sertifikalı arı zehri",
+    },
 ];
 
 export default function InfoCardsComp({ cardsInfoArr = dummy }) {
@@ -43,30 +53,26 @@ export default function InfoCardsComp({ cardsInfoArr = dummy }) {
                         style={{ display: "flex", alignItems: "center" }}
                     >
                         <div className="title-row">
-                            <h1>Here comes the title</h1>
+                            <h1>Ar-Ge'ye Önem Veriyoruz</h1>
                             <h2>
-                                You may write the subtitle here to give more
-                                detail about what is told in this component
+                                Üretimi kendi geliştirdiğimiz araç ve gereçlerle
+                                çok daha üst seviyeye taşıyoruz
                             </h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Suspendisse placerat felis vel
-                                diam laoreet, ac pretium augue fermentum. Nam
-                                nec dictum nunc. Aliquam tincidunt urna ut
-                                pulvinar sodales. Nam dignissim luctus
-                                consequat. Sed eget libero sed quam ornare
-                                porttitor. Integer non metus imperdiet risus
-                                efficitur semper tristique ac nulla. Vestibulum
-                                venenatis sem in interdum ornare. Fusce rutrum
-                                molestie magna eu cursus. Nulla facilisis
-                                volutpat convallis. Integer ex sem, dignissim
-                                quis ex at, congue egestas lacus. Pellentesque
-                                gravida neque at consectetur aliquam.
-                                Pellentesque interdum eget ligula id lobortis.
-                                Aliquam et tempor augue, eu aliquam arcu. Fusce
-                                nec imperdiet odio. Mauris aliquam porttitor
-                                elit, at vestibulum mi mattis a. Nam et
-                                facilisis sem, ac eleifend nisl.
+                                Ar-Ge çalışmalarımız sonucunda geliştirdiğimiz
+                                yenilikçi arı zehri aparatımız sayesinde yüksek
+                                miktarda ve kaliteli arı zehri hasadı
+                                gerçekleştiriyoruz. Sözleşmeli arıcılarımıza
+                                aparat ve ekip desteği sağlıyoruz. İş
+                                ortaklımızı yatırım ve operasyon maliyeti
+                                olmadan arı zehri hasadı sürecine dahil
+                                ediyoruz. İşlem gerçekleştirilen kovan sayısı
+                                ile orantılı olarak iş ortaklarımıza komisyon
+                                ödemesini gerçekleştiriyoruz. Topladığımız arı
+                                zehrinin uygun şartlarda depolanmasını
+                                sağlıyoruz. Yetkili laboratuvarlarda Kalite
+                                kontrollerini gerçekleştirdiğimiz arı zehrini
+                                tedariğini sağlıyoruz.
                             </p>
                         </div>
                     </Col>
@@ -99,10 +105,10 @@ export default function InfoCardsComp({ cardsInfoArr = dummy }) {
                     </Col>
                     <Col xs={12} lg={7}>
                         <div className="title-row">
-                            <h1>Here comes the title</h1>
+                            <h1>Değerlerimiz</h1>
                             <h2>
-                                You may write the subtitle here to give more
-                                detail about what is told in this component
+                                Yaptığımız işi en üst seviyeye taşımak için
+                                çalışıyor, değerlerimizden ödün vermiyoruz
                             </h2>
                         </div>
                         <div class="grid">

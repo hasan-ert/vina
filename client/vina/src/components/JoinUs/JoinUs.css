@@ -52,3 +52,12 @@
 .join-main-container .join-pic-col{
     padding: 0;
 }
+
+.join-main-row h2{
+    margin-bottom: 2rem;
+}
+
+.join-main-row h3{
+    font-size: 24pt;
+    margin-bottom: 1.5rem;
+}

@@ -85,11 +85,12 @@ color: var(--text-dark);
 
 #demo1 {
 position: relative;
-text-transform: capitalize;
+text-transform: uppercase;
   text-align: center;
 bottom: 50%;
 font-size: 1.5em;
 z-index: 1;
+font-weight: bold;
 }
 .hex h1:before, .hex h1:after {
   position: absolute;
@@ -114,7 +115,7 @@ right: 0;
 #demo2 {
 top: 50%;
 text-align: center;
-text-transform: uppercase;
+text-transform: capitalize;
   
 }
 

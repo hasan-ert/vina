@@ -21,16 +21,11 @@ export default function Hero() {
                 <Row>
                     <Col xs={12} md={8} className="hero-info-col">
                         <h1>Welcome to VINA</h1>
-                        <h2>Lorem Ipsum Dolor Sit Amet</h2>
+                        <h2>Doğal Arı Zehri Hasadı ve Tedariği</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Sed finibus, ipsum vitae interdum convallis,
-                            lacus risus suscipit lorem, sit amet euismod mi
-                            sapien eget lectus. Donec posuere, erat vitae
-                            feugiat pellentesque, quam dolor feugiat nisl, et
-                            hendrerit urna tellus in tellus. Sed dignissim,
-                            neque sed ullamcorper rutrum, felis purus imperdiet
-                            nisl, sed ultrices magna dui a lacus.
+                            Kendi geliştirdiğimiz yenlikçi aparatlarımızı
+                            kullanarak sözleşmeleri arıcılarımız ile yüksek
+                            kaliteli arı zehri hasadı gerçekleştiriyoruz.
                         </p>
                     </Col>
                 </Row>
